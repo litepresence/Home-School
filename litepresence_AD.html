@@ -1,0 +1,318 @@
+<head>
+
+	<style>
+		/*Main text body*/
+		body {
+			background-color:rgb(61, 90, 11);
+		}
+		/*Paragraphs*/
+
+		p {
+			color:rgb(5, 5, 3);
+		}
+		/*Links*/
+
+		a {
+			color:rgb(200, 200, 255);
+			font-family:Pagul;
+		}
+		/*size one headers*/
+
+		h1 {
+			color:black;
+			font-family: Ubuntu;
+		}
+		/*size two headers*/
+
+		h2 {
+			color:black;
+			font-family: Ubuntu;
+		}
+		/*size three headers*/
+
+		h3 {
+			color:black;
+			font-family: Ubuntu;
+		}
+		/*Divisions*/
+
+		div {
+			background-color:rgb(81, 110, 31);
+			font-family: Noto Sans Mono;
+		}
+		/*Special italic font, custom*/
+
+		p1 {
+			font-style: italic;
+			color:rgb(5, 5, 3);
+		}
+
+	</style>
+
+	<title>
+			Litepresence.com
+	</title>
+
+</head>
+<body>
+	<h1>Bitshares algo-trading</h1>
+	<p>README.md</p>
+	<img src="/home/oracle/josiah/coding/JavaScript/litepresence/bitshares_QUANT_card.png" alt="bitshares QUANT card" width = "428" height="250">
+	<img src="/home/oracle/josiah/coding/JavaScript/litepresence/Extinction_Event_chart.png" alt="Extinction event chart" width = "696" height="550">
+	<h1>INSTALLATION:</h1>
+
+	<h3>EXTINCTION EVENT - CEX MUST DIE</h2>
+	<p></p>
+	<p>NOTE: this tool set is currently in alpha state of development; more new toys coming soon!</p>
+	<p></p>
+	<h3>(BTS) litpresence1</h3>
+
+	<div>see WHITEPAPER folder for spanish, chinese, and russian language installation.</div>
+	<div>ver carpeta de papel blanco para instalación en español.</div>
+	<div>看中文安装的白皮书文件夹.</div>
+	<div>см. белую папку для русской.</div>
+
+	<h3>LICENSE?!?</h3>
+
+	<div>def WTFPL_v0_March_1765():</div>
+    <div>	if any([stamps, licenses, taxation, regulation, fiat, etat]):</div>
+    <div>		try:</div>
+    <div>			print('no thank you')</div>
+    <div>		except:</div>
+    <div>			return [tar, feathers]</div>
+
+    <h3>BitShares DEX Algo-Trading Tools</h3>
+
+    <p>The repository name "Extinction Event" was born of the notion that DEX tech combined with AI controlled algorithmic trading tech reaching the common user, in unison, would be an extinction level event for both centralized web-based exchanges and "monthly fee" algorithmic trading services.</p>
+
+	<h2>THREE LINE INSTALL:</h2>
+
+	<p>Navigate to the location you want to put your extinction-event folder, then:</p>
+	<div>sudo apt-get install git</div>
+	<div>git clone https://github.com/litepresence/extinction-event.git</div>
+	<div>cd extinction-event; python3 environment.py</div>
+
+	<p>Follow the instructions in the terminal.</p>
+
+	<h2>DONE</h2>
+
+	<p>if that didn't work for some reason:</p>
+	<h3>SUPPORT:</h3>
+	<p>FAST:</p>
+	<a href = 'https://t.me/bitshares_extinction_event'>https://t.me/bitshares_extinction_event</a>
+	<p>SLOW:</p>
+	<a>finitestate@tutamail.com</a>
+	<p>or try:</p>
+	
+	<h2>LINE-BY-LINE INSTALL:</h2>
+
+	<p>This stack is heavy on solid state drive read/write, needs 4 gig ram, and central processing unit speed = back testing speed; recommendations:</p>
+
+	<h3>GATHER HARDWARE:</h3>
+
+	<p>1) Solid State Drive SOLID STATE DRIVE of any size; 120 Gigabyte drives are $20; plenty good.</p>
+	<p>2) DO NOT install exinction-event on a spinning platter HDD</p>
+	<p>3) 4 GB RAM for full stack, 8 preferred</p>
+	<p>4) moderate to high end desktop CPU, I run AMD 7950</p>
+	<p>5) Gold/Platinum power as this is your 24/7 bot script machine</p>
+	<p>6) I run FM2+ milspec/ultra durable boards from ASUS or GIGABYTE</p>
+
+	<h3>INSTALL LINUX OS:</h3>
+
+	<p>Any debian/ubuntu should do.  The stack is NOT Mac or Windows compliant. I am running Cinnamon Mint 19.04, learn more:</p>
+	<div>https://linuxmint.com/</div>
+
+	<p>extinction-event should be compliant with other linux distrobutions, installation may vary.</p>
+	<h3>UPDATE APT-GET</h3>
+	<div>$ sudo apt-get update</div>
+
+	<h3>INSTALL PYTHON 3.6+</h3>
+
+	<p>I used these instructions:</p>
+
+	<div>https://tecadmin.net/install-python-3-7-on-ubuntu-linuxmint/</div>
+	<h3>SUDO APT INSTALL PIP3, GIT, TK, DEV, SECP256K1</h3>
+
+	<div>$ sudo apt-get install -y python3-pip</div>
+	<div>$ sudo apt-get install python3-tk</div>
+	<div>$ sudo apt-get install python3-dev</div>
+	<div>$ sudo apt-get install libsecp256k1-dev</div>   
+	<div>$ sudo apt-get install git</div>
+	<div>$ sudo pip3 install virtualenv</div>
+	<h3>GIT CLONE EXTINCTION-EVENT REPOSITORY</h3>
+
+	<p>Navigate to the folder you want to run your bots from:</p>
+
+	<div>$ cd (folder name)</div>
+	<div>$ git clone https://github.com/litepresence/extinction-event.git</div>
+	<h3>CREATE A VIRTUAL ENVIRONMENT</h3>
+
+	<p>Enter the extinction-event folder:</p>
+
+	<div>$ .../extinction-event</div>
+	<div>$ virtualenv -p python3 env</div>
+	<h3>ENTER VIRTUAL ENVIRONMENT</h3>
+
+	<div>$ source env/bin/activate</div>
+	<h3>INSTALL REQUIREMENTS</h3>
+
+	<div>$ pip install -r requirements.txt</div>
+	<p>NOTE The virtual environment and setup.py are in extinction-event NOTE The scripts are all in extinction-event/EV NOTE you will need to activate your virtual environment from extinction-event folder EVERY TIME you start a new terminal tab when running these scripts.</p>
+
+	<h3>INSTALL TULIP and TALIB</h3>
+
+	<p>tulip and talib provide indicators like EMA, MACD, Parabolic SAR, Aroon, RSI, STOCH, etc. see installation instructions in WHITEPAPER folder without tulip and talib you will be limited to simple moving averages</p>
+
+	<h3>LATENCY TEST</h3>
+
+	<p>Open a new terminal tab. Run a latency test, it will take a few minutes. This will write nodes.txt which will be used by metaNODE.py. Navigate to:</p>
+
+	<div>$ .../extinction-event</div>
+	<div>$ source env/bin/activate</div>
+	<div>$ cd EV</div>
+	<div>$ python3 latencyTEST.py</div>
+	<p>When you get more serious about running bot script full time you can change USER CONTROLS within latencyTEST.py for recurring loop, custom white lists, or to scan github for newly posted nodes. You can even plot the node locations and upload your results to the web. After latency test has written node.txt, open node.txt in a text editor to confirm you have a list of latency sorted nodes for your region.</p>
+
+	<h3>META NODE</h3>
+
+	<p>Next you will begin your first metaNODE session. New terminal tab, cd navigate to:</p>
+
+	<div>$ .../extinction-event</div>
+	<div>$ source env/bin/activate</div>
+	<div>$ cd EV</div>
+	<div>$ python3 metaNODE.py</div>
+	<p>Enter your account name and market of choice. You can press enter to skip and a default account and market will be chosen:</p>
+
+	<p>account: abc123</p>
+	<p>currency: open.btc</p>
+	<p>assets: bts</p>
+	<p>Capitalization does not matter for the asset and currency. metaNODE CANNOT access your funds.</p>
+
+	<h3>MICRO DEX</h3>
+
+	<p>This will ensure you have all dependencies to sign transactions installed. In a new terminal tab, with metaNODE still running in first tab, navigate to:</p>
+
+	<div>$ .../extinction-event</div>
+	<div>$ source env/bin/activate</div>
+	<div>$ cd EV</div>
+	<div>$ python3 microDEX.py</div>
+	<p>You will be presented with the OPTION to enter your WIF. Alternatively you can press ENTER to skip. You do not need to give your WIF at this time to ensure complete setup.</p>
+
+	<p1>microDEX HAS FULL ACCESS TO YOUR FUNDS IF YOU GIVE YOUR WIF.</p1>
+
+	<p>You SHOULD familiarize yourself and friends with the source code before entering your WIF. Your WIF is what signs transactions of any type. DO NOT authenticate unless you understand and fully trust the scripts I have given to you.</p>
+
+	<p>The best way to get your WIF is by opening the reference Bitshares User Interface:</p>
+
+	<p>settings >> accounts >> show keys click on "KEY" icon click "show private key in WIF format"</p>
+
+	<p>to obtain a copy of the reference User Interface, visit:</p>
+
+	<a href = 'http://bitshares.org/download/'>http://bitshares.org/download/</a>
+
+	<h3>Application Programming Interface Keys</h3>
+
+	<p>The latest version of the back testing engine allows you to back testing against bitshares decentralized exchange data as well as several outside sources. Each of these sources was chosen because of the vast data available and ease of obtaining FREE application programming interface keys.</p>
+
+	<p>Go get API keys from:</p>
+
+	<a href = 'www.cryptocompare.com'>www.cryptocompare.com</a>
+
+	<a href = 'www.alphavantage.com'>www.alphavantage.com</a>
+
+	<a href = 'www.nomics.com'>www.nomics.com</a>
+
+	<p>open apiKEYS.py and install your keys where they go in the dictionary, save file and close</p>
+
+	<p1>NOTE: This py file must be in JSON format!</p1>
+
+	<p>use DOUBLE QUOTES and COMMA after each entry except the last; no comma</p>
+	<p>DO NOT include any comments or other text in this document</p>
+	<p>These keys are public application programming interface keys and CANNOT effect your funds if they are stolen, however they do limit your daily application programming interface calls to prevent distributed denial of service attack. They need to be kept private; but not funds-on-line critical secret like your WIF. See each website for details.</p>
+
+	<p>If you skip this step, you will only be able to back testing with CANDLE_SOURCE = 'DEX' in tune_install() as BitShares public remote procedure call nodes do not require API keys.</p>
+
+	<h3>PROXY TEST</h3>
+
+	<p>proxyTEST.py will ensure that you have installed your back testing application programming interface keys correctly.</p>
+
+	<p>open proxyTEST and there is user input API near the top of the script. Run a test on API numbers 1 through 6.</p>
+
+	<h3>EXTINCTION EVENT</h3>
+
+	<p>In a new terminal tab, with metaNODE still running in first tab, navigate to:</p>
+
+	<div>$ .../extinction-event</div>
+	<div>$ source env/bin/activate</div>
+	<div>$ cd EV</div>
+	<div>$ python3 extinctionEVENT.py</div>
+	<p>You will be presented with some options:</p>
+
+	<pre>1) BACKTEST</pre>
+
+	<pre>		allows you to back testing and tune strategies using the tune_install() definition within extictionEVENT.py</pre>
+
+	<pre>2) PAPER</pre>
+
+	<pre>		allows you to run a live session without giving the bot your keys, no live trades will be made</pre>
+
+	<pre>3) LIVE</pre>
+
+	<pre>		is live trading with funds per your control_panel() and tune_install() settings</pre>
+
+	<pre>4) SALES</pre>
+
+	<pre>		allows you to sell extinctionEVENT strategy tunes by posting images of trade points without showing your moving average thresholds</pre>
+
+	<pre>5) ORDER_TEST</pre>
+
+	<pre>		is a live trading session WITH FUNDS but places orders far from the margins to test authentication</pre>
+
+	<pre>6) OPTIMIZE</pre>
+
+	<pre>		auto tunes back tests, this is NOT currently open source; I'm currently considering a worker for this and more.</p>
+
+	<h3>ACCOUNT HISTORY</h3>
+
+	<pre>		Whenever your metaNODE is running your account history is being logged to file. accountHISTORY.py can read this file and plot your changes in account balances over time.</p>
+
+	<h3>BRIEF DESCRIPTION OF TOOLS</h3>
+
+	<pre>1)	extinctionEVENT.py</pre>
+	<pre>		moving average crossover algorithmic trading bot framework for trading on the Bitshares DEX microDEX.py</pre>
+	<pre>		lightweight user interface to perform manual buy/sell/cancel operations on the Bitshares DEX</pre>
+
+	<pre>2) metaNODE.py</pre>
+	<pre>		statistical curation of market data from multiple public DEX nodes into a streaming text file</pre>
+
+	<pre>3) latencyTEST.py</pre>
+	<pre>		search for low latency Bitshares nodes in your region</pre>
+
+	<pre>4) proxyDEX.py</pre>
+	<pre>		correctly interpolated HLOCV Bitshares DEX candles for back testing and live session</pre>
+
+	<pre>5) proxyCEX.py</pre>
+	<pre>		HLOCV altcoin:altcoin daily candles for back testing from www.cryptocompare.com</pre>
+
+	<pre>6) proxyMIX.py</pre>
+	<pre>		HLOCV crypto exchange specific daily candles for back testing from www.nomics.com</pre>
+
+	<pre>7) proxyALPHA.py</pre>
+	<pre>		HLOCV stocks, forex, and crypto:forex daily candles for back testing from www.alphavantage.com</pre>
+
+	<pre>8) apiKEYS.py</pre>
+	<pre>		dictionary to store your cryptocompare, alphavantage, and nomics application programming interface keys</pre>
+
+	<pre>9) proxyTEST.py</pre>
+	<pre>		utility to gather and plot data from proxyDEX, CEX, MIX, and ALPHA</pre>
+
+	<pre>10) accountHISTORY.py</pre>
+	<p>		metaNODE.py takes a balances snapshot hourly whenever it is running, use accountHISTORY to visualize</pre>
+
+	<p>Visit www.litepresence.com for machine optimized algorithms</p>
+
+	<p>Using elitist bred quantum particle swarms I run hundreds of thousands of back tests to optimize algorithms. You can optimize algorithms yourself by trial and error, but why not let my AI handle it?</p>
+
+<!-- 	<p>Visit my git-hub repository to download the scripts:</p>
+	<a href = 'https://github.com/litepresence/extinction-event'>Litepresence.com</a> -->
+</body>
